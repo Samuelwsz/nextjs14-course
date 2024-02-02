@@ -66,6 +66,26 @@ export default function Home() {
           Dynamic Routes
         </Link>
       </div>
+
+      <div>
+        <h1 className="my-3">Catch All Routes</h1>
+        <Link
+          href="/Routing/CatchAllRoutes"
+          className="bg-gray-400 p-1 text-white rounded-md mr-3"
+        >
+          Catch All Routes
+        </Link>
+      </div>
+
+      <div>
+        <h1 className="my-3">Redirects</h1>
+        <Link
+          href="/Routing/Redirects"
+          className="bg-gray-400 p-1 text-white rounded-md mr-3"
+        >
+          Redirects
+        </Link>
+      </div>
     </main>
   )
 }
