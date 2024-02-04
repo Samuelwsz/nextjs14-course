@@ -19,7 +19,6 @@ export default function Home() {
           contact
         </Link>
       </div>
-
       <div>
         <h1 className="my-3">Nested Routes</h1>
 
@@ -36,7 +35,6 @@ export default function Home() {
           SpecificProduct
         </Link>
       </div>
-
       <div>
         <h1 className="my-3">useRouter</h1>
         <Link
@@ -46,7 +44,6 @@ export default function Home() {
           useRouter
         </Link>
       </div>
-
       <div>
         <h1 className="my-3">IgnoringRoutes</h1>
         <Link
@@ -56,7 +53,6 @@ export default function Home() {
           IgnoringRoutes
         </Link>
       </div>
-
       <div>
         <h1 className="my-3">Dynamic Routes</h1>
         <Link
@@ -66,7 +62,6 @@ export default function Home() {
           Dynamic Routes
         </Link>
       </div>
-
       <div>
         <h1 className="my-3">Catch All Routes</h1>
         <Link
@@ -76,7 +71,6 @@ export default function Home() {
           Catch All Routes
         </Link>
       </div>
-
       <div>
         <h1 className="my-3">Redirects</h1>
         <Link
@@ -84,6 +78,44 @@ export default function Home() {
           className="bg-gray-400 p-1 text-white rounded-md mr-3"
         >
           Redirects
+        </Link>
+      </div>
+      <div>
+        <h1 className="my-3">Layouts</h1>
+        <Link
+          href="/Layout"
+          className="bg-gray-400 p-1 text-white rounded-md mr-3"
+        >
+          Layout
+        </Link>
+      </div>
+      <div className="flex">
+        <div>
+          <h1 className="my-3">FetchDataClient</h1>
+          <Link
+            href="/FetchDataClient"
+            className="bg-gray-400 p-1 text-white rounded-md mr-3"
+          >
+            FetchDataClient
+          </Link>
+        </div>
+        <div>
+          <h1 className="my-3">FetchDataServer</h1>
+          <Link
+            href="/FetchDataServer"
+            className="bg-gray-400 p-1 text-white rounded-md mr-3"
+          >
+            FetchDataServer
+          </Link>
+        </div>
+      </div>
+      <div>
+        <h1 className="my-3">BackendParams</h1>
+        <Link
+          href="/BackendParams"
+          className="bg-gray-400 p-1 text-white rounded-md mr-3"
+        >
+          BackendParams
         </Link>
       </div>
     </main>
