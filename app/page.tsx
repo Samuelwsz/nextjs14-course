@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="px-3">
+    <main className="px-3 mb-20">
       <div>
         <h1 className="my-3">Basic routing</h1>
         <Link
@@ -125,6 +125,15 @@ export default function Home() {
           className="bg-gray-400 p-1 text-white rounded-md mr-3"
         >
           UserListPage
+        </Link>
+      </div>
+      <div>
+        <h1 className="my-3">envtests</h1>
+        <Link
+          href="/EnvTests"
+          className="bg-gray-400 p-1 text-white rounded-md mr-3"
+        >
+          envtests
         </Link>
       </div>
     </main>
