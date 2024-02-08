@@ -136,6 +136,15 @@ export default function Home() {
           envtests
         </Link>
       </div>
+      <div>
+        <h1 className="my-3">APIwithUI</h1>
+        <Link
+          href="/APIwithUI"
+          className="bg-gray-400 p-1 text-white rounded-md mr-3"
+        >
+          APIwithUI
+        </Link>
+      </div>
     </main>
   )
 }

@@ -40,3 +40,5 @@ https://www.youtube.com/watch?v=GowPe3iiqTs&t=921s&ab_channel=HuXnWebDev
 https://github.com/HuXn-WebDev/Next.js-14-Masterclass/tree/main
 
 https://dummyjson.com/
+
+https://www.material-tailwind.com/docs/react/guide/next
