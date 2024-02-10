@@ -40,4 +40,10 @@ export const users = [
     email: "meh@gmail.com",
     password: "meh",
   },
+  {
+    id: "7",
+    name: "sam",
+    email: "sam@gmail.com",
+    password: "12345",
+  },
 ]

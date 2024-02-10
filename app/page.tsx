@@ -145,6 +145,15 @@ export default function Home() {
           APIwithUI
         </Link>
       </div>
+      <div>
+        <h1 className="my-3">FakeUsersManagmentSystemProject</h1>
+        <Link
+          href="/FakeUsersManagmentSystemProject"
+          className="bg-gray-400 p-1 text-white rounded-md mr-3"
+        >
+          FakeUsersManagmentSystemProject
+        </Link>
+      </div>
     </main>
   )
 }
