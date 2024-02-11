@@ -6,6 +6,8 @@ import {
   AccordionBody,
 } from "@material-tailwind/react"
 import { useState } from "react"
+import AllUsers from "./AllUsers"
+import SpecificUser from "./SpecificUser"
 
 export default function AccordionUI() {
   const [open, setOpen] = useState(1)
@@ -21,7 +23,17 @@ export default function AccordionUI() {
         >
           All Users
         </AccordionHeader>
-        <AccordionBody>All Users</AccordionBody>
+        <AccordionBody>
+          <AllUsers />
+        </AccordionBody>
+      </Accordion>
+      <Accordion open={open === 2} placeholder="">
+        <AccordionHeader onClick={() => handleOpen(2)} placeholder="">
+          Search For Specific User
+        </AccordionHeader>
+        <AccordionBody>
+          <SpecificUser />
+        </AccordionBody>
       </Accordion>
     </section>
   )
