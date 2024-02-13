@@ -42,3 +42,7 @@ https://github.com/HuXn-WebDev/Next.js-14-Masterclass/tree/main
 https://dummyjson.com/
 
 https://www.material-tailwind.com/docs/react/guide/next
+
+### auth
+
+https://next-auth.js.org/
